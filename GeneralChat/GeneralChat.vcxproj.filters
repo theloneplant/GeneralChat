@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{54892319-38e1-4c19-b675-6eae5bca0205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Buffers">
+      <UniqueIdentifier>{92a0c75c-b52c-49e7-afe2-7ecd4db59b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Threads">
+      <UniqueIdentifier>{e3f5e11c-6696-4733-801b-5895e08bb90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Threads\Network">
+      <UniqueIdentifier>{04bc202e-8043-4e06-8ebe-d72e029b5c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Threads\Local">
+      <UniqueIdentifier>{ffd32f79-709a-466e-bae5-78af128f98d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{643a7c9d-97a3-4105-866f-0a1492081ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{d7fddb10-7c12-4132-829d-e70c25438176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Standard Headers">
+      <UniqueIdentifier>{32951dff-04d6-40c6-95fa-2f4063630175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Threads\View">
+      <UniqueIdentifier>{6f0a6a31-4eb8-401f-9d7b-d97990722ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\MessageQueue">
+      <UniqueIdentifier>{548eaa77-ce76-4233-9271-015614d3238f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messages">
+      <UniqueIdentifier>{4070eb95-ea1c-46f5-bf1f-bee05296b351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Threads\View\Console">
+      <UniqueIdentifier>{d67ad7a2-44d6-4453-9986-e0732287e4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Network">
+      <UniqueIdentifier>{2daab88a-c439-419d-a633-7481ae7d7102}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardThread.cpp">
+      <Filter>Source Files\Core\Threads\Local</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardBuffer.cpp">
+      <Filter>Source Files\Core\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHistory.cpp">
+      <Filter>Source Files\Core\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewThread.cpp">
+      <Filter>Source Files\Core\Threads\View</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageQueue.cpp">
+      <Filter>Source Files\Core\MessageQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CharMessage.cpp">
+      <Filter>Source Files\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="FullMessage.cpp">
+      <Filter>Source Files\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files\Standard Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files\Core\Threads\View\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientThread.cpp">
+      <Filter>Source Files\Core\Threads\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerThread.cpp">
+      <Filter>Source Files\Core\Threads\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\Standard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GC_Windows.h">
+      <Filter>Source Files\Standard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GC_Unix.h">
+      <Filter>Source Files\Standard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardThread.h">
+      <Filter>Source Files\Core\Threads\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardBuffer.h">
+      <Filter>Source Files\Core\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHistory.h">
+      <Filter>Source Files\Core\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="conioUnix.h">
+      <Filter>Source Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Notification.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewThread.h">
+      <Filter>Source Files\Core\Threads\View</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>Source Files\Core\MessageQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Source Files\Standard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Source Files\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CharMessage.h">
+      <Filter>Source Files\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="FullMessage.h">
+      <Filter>Source Files\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="OS.h">
+      <Filter>Source Files\Standard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Source Files\Core\Threads\View\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Source Files\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Formatter.h">
+      <Filter>Source Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Source Files\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientThread.h">
+      <Filter>Source Files\Core\Threads\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerThread.h">
+      <Filter>Source Files\Core\Threads\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
